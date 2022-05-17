@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&display=swap');
+:root{
+    --VeryDarkMagenta: hsl(300, 43%, 22%);
+    --SoftPink: hsl(333, 80%, 67%);
+    --DarkGrayishMagenta: hsl(303, 10%, 53%);
+    --LightGrayishMagenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'League Spartan', sans-serif;
+    background-color: var(--LightGrayishMagenta);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    margin: 15px auto;
+    height: 600px;
+    background-color: var(--White);
+    padding: 10px 10px;
+}
+.header{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.right-header{
+    width: 400px;
+    margin-top: 84px;
+}
+.box{
+    display: flex;
+    padding: 12px;
+    width: 90%;
+    height: 37px;
+    text-align: center;
+    background-color: var(--LightGrayishMagenta);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.box2{
+    margin-left: 20px;
+}
+.box3{
+    margin-left: 40px;
+}
+.star{
+    margin-right: 12px;
+}
+
+.rating{
+    color: var(--VeryDarkMagenta);
+    font-weight: bold;
+}
+
+
+.left-header{
+    width: 250px;
+    margin-top: 84px;
+}
+.left-header h1{
+    color: var(--VeryDarkMagenta);
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+.left-header p{
+    color: var(--DarkGrayishMagenta);
+    line-height: 18px;
+}
+.bottomContainer{
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bottom{
+    background-color: var(--VeryDarkMagenta);
+    width: 32%;
+    
+    margin-right: 2px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.bottomHead{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.bottomHead img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.stat h5{
+    margin-bottom: 5px;
+    color: var(--White);
+}
+.stat span{
+    color: var(--SoftPink);
+}
+.bottomPara{
+    color: var(--White);
+    font-size: 15px;
+}
+.bottom2{
+    margin-top: 20px;
+}
+.bottom3{
+    margin-top: 40px;
+}
